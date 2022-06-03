@@ -13,7 +13,7 @@
   margin-right: auto;
 }
   body {
-  animation: fadeInAnimation ease 3s; 
+  animation: fadeInAnimation ease 5s; 
   animation-iteration-count: 1; 
   animation-fill-mode: forwards; 
   background-image: url('https://wallpaperaccess.com/full/3299088.jpg');
@@ -104,6 +104,67 @@ div.transbox p {
   width: 10%;
   padding: 10px;
 }
+.column5 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+.tablecontents {
+  position: fixed;
+  top: 300px;
+  left: 25px;
+  color: white;
+  font-size: 20px;
+  animation: fadeInAnimation ease 15s; 
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards; 
+}
+.tablecontents2 {
+  position: fixed;
+  top: 340px;
+  left: 25px;
+  color: white;
+  font-size: 20px;
+  animation: fadeInAnimation ease 15s; 
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards; 
+}
+.tablecontents3 {
+  position: fixed;
+  top: 380px;
+  left: 25px;
+  color: white;
+  font-size: 20px;
+  animation: fadeInAnimation ease 15s; 
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards; 
+}
+.tablecontents4 {
+  position: fixed;
+  top: 420px;
+  left: 25px;
+  color: white;
+  font-size: 20px;
+  animation: fadeInAnimation ease 15s; 
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards; 
+}
+.tablecontents:hover {
+  color: blue;
+  font-weight: bold;
+}
+.tablecontents2:hover {
+  color: blue;
+  font-weight: bold;
+}
+.tablecontents3:hover {
+  color: blue;
+  font-weight: bold;
+}
+.tablecontents4:hover {
+  color: blue;
+  font-weight: bold;
+}
 
 </style>
   <body>
@@ -166,6 +227,34 @@ div.transbox p {
     <p></p>
 
 
+      
+
+    <div class = "tablecontents">
+      
+      <a style = "color: white" href = "#about">About</a>
+      
+    </div>
+
+
+    <div class = "tablecontents2">
+      
+      <a style = "color: white" href = "#projects">Projects</a>
+      
+    </div>
+
+
+    <div class = "tablecontents3">
+      
+      <a style = "color: white" href = "#extracurriculars">Extracurriculars</a>
+      
+    </div>
+
+    <div class = "tablecontents4">
+      
+      <a style = "color: white" href = "#contact">Contact</a>
+      
+    </div>
+
     <div id = "about"></div>
 
     <div style = "margin-left: 15em;">
@@ -185,6 +274,8 @@ div.transbox p {
       
     
       <div style = "margin-left: 17em;">
+        <div class = "row">
+          <div class = "column5">
         <h1 style = "color: white">Completed Courses</h1>
         <p></p>
         <p style = "color: white">CS61A - Structure and Interpretation of Computer Programs</p>
@@ -193,6 +284,18 @@ div.transbox p {
         <p style = "color: white">EECS16A - Designing Information Devices and Systems I</p>
         <p style = "color: white">EECS16B - Designing Information Devices and Systems II</p>
         <p style = "color: white">ECON1 - Introduction to Economics</p>
+            </div>
+
+           
+          <div style = "margin-top: 4.75em;" class = "column5">
+            <p>CS61C - Machine Structures</p>
+            <p>CS161 - Computer Security</p>
+            <p>CS188 - Introduction to Artificial Intelligence</p>
+            <p>DATA100 - Principles & Techniques of Data Science</p>
+            <p>CS186 - Introduction to Database Systems</p>
+          </div>
+
+        </div>
       </div>
         
         
